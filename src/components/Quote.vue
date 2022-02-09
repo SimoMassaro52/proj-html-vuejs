@@ -22,7 +22,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 @import '@/assets/style/variables.scss';
 
     #quote{
@@ -42,7 +41,7 @@ export default {
         }
 
         h3{
-            font-family: 'Caveat', cursive;
+            font-family: 'Arizonia', cursive;
             color: $ice-cold;
             font-size: 35px;
         }

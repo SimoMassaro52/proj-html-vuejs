@@ -54,7 +54,6 @@ export default {
 
 <style lang="scss" scoped>
 @import '@/assets/style/variables.scss';
-@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
 #coaching{
     height: 90vh;
@@ -63,7 +62,7 @@ export default {
 
     #c-box{
         h3{
-            font-family: 'Caveat', cursive;
+            font-family: 'Arizonia', cursive;
             color: $ice-cold;
             font-size: 45px;
         }

@@ -3,6 +3,8 @@
         <Jumbo />
         <Coaching />
         <Quote />
+        <Video />
+        <Slider />
     </main>
 </template>
 
@@ -10,7 +12,8 @@
 import Jumbo from './Jumbo.vue'
 import Coaching from './Coaching.vue'
 import Quote from './Quote.vue'
-
+import Video from './Video.vue'
+import Slider from './Slider.vue'
 
 
 export default {
@@ -18,7 +21,9 @@ export default {
     components:{
         Jumbo,
         Coaching,
-        Quote
+        Quote,
+        Video,
+        Slider
     }
 }
 </script>

@@ -37,7 +37,6 @@ export default {
 <style lang="scss" scoped>
 
 @import '@/assets/style/variables.scss';
-@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
     #jumbo{
         position: relative;
@@ -57,7 +56,7 @@ export default {
         z-index: 3;
         width: 650px;
         h3{
-            font-family: 'Caveat', cursive;
+            font-family: 'Arizonia', cursive;
             color: $ice-cold;
             font-size: 50px;
         }
