@@ -7,15 +7,24 @@
     margin: 0;
 }
 
-// body *{
-//     border: 1px solid black;
-// }
+body *{
+    border: 1px solid black;
+}
 
 body{
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 
 a{
     text-decoration: none !important;
 }
+
+.custom_btn{
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
 

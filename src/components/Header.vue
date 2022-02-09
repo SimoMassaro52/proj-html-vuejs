@@ -100,7 +100,7 @@ export default {
 
 /*TIMER SUB SECTION*/
 #timer{
-    background-color: $silver;
+    background-color: $hint-of-red;
     height: 50px;
 }
 
