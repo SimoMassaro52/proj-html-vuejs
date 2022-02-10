@@ -79,7 +79,7 @@ export default {
     background-color: #FBF9F6;
     h2{
         font-family: 'Arizonia', cursive;
-        color: $ice-cold;
+        color: $heading-blue;
         font-size: 40px;
     }
     

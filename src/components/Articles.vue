@@ -71,7 +71,7 @@ export default {
 
         h2{
             font-family: 'Arizonia', cursive;
-            color: $ice-cold;
+            color: $heading-blue;
             font-size: 50px;
         }
 

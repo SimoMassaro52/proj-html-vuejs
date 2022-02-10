@@ -63,7 +63,7 @@ export default {
     #c-box{
         h3{
             font-family: 'Arizonia', cursive;
-            color: $ice-cold;
+            color: $heading-blue;
             font-size: 45px;
         }
         h2{

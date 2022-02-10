@@ -57,7 +57,7 @@ export default {
         width: 650px;
         h3{
             font-family: 'Arizonia', cursive;
-            color: $ice-cold;
+            color: $heading-blue;
             font-size: 50px;
         }
         h2{

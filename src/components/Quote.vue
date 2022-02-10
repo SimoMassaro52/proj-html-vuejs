@@ -42,7 +42,7 @@ export default {
 
         h3{
             font-family: 'Arizonia', cursive;
-            color: $ice-cold;
+            color: $heading-blue;
             font-size: 35px;
         }
 
