@@ -7,6 +7,7 @@
         <Slider />
         <Courses />
         <Articles />
+        <Events />
     </main>
 </template>
 
@@ -18,6 +19,7 @@ import Video from './Video.vue'
 import Slider from './Slider.vue'
 import Courses from './Courses.vue'
 import Articles from './Articles.vue'
+import Events from './Events.vue'
 
 
 export default {
@@ -29,7 +31,8 @@ export default {
         Video,
         Slider,
         Courses,
-        Articles
+        Articles,
+        Events
     }
 }
 </script>

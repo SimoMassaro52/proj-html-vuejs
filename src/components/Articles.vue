@@ -1,5 +1,5 @@
 <template>
-    <section id="articles" class="d-flex flex-column mt-5">
+    <section id="articles" class="d-flex flex-column mt-5">  
         <div class="text-center py-5">
             <h2>Articles and Tips</h2>
             <h3>Latest From The Blog</h3>
@@ -67,6 +67,7 @@ export default {
 
     #articles{
         background-color: #F5F7FA;
+        position: relative;
 
         h2{
             font-family: 'Arizonia', cursive;
@@ -172,11 +173,11 @@ export default {
         #string{
             position: absolute;
             width: 100%;
-            top: 4850px;
+            top: 300px;
         }
         #green-dots{
             position: absolute;
-            top: 4750px;
+            top: 200px;
             left: 310px;
         }
 
