@@ -5,7 +5,7 @@
     <section id="timer" class="d-flex justify-content-center">
         <div id="clock" class="d-flex align-items-center justify-content-between">
             <span>Starts TOMORROW! Our biggest event of the year...</span>
-            <span class="mx-3"><i class="bi bi-clock"></i> 00 : 00 : 00 : 00</span>
+            <span class="mx-3"><i class="bi bi-clock"></i>{{clock()}}</span>
         </div>
         <div class="d-flex align-items-center px-5">
             <div class="custom_btn">
@@ -46,6 +46,21 @@ export default {
      MenuItem 
 },
     name: 'Header',
+    methods:{
+        clock: function(){
+            let dayjs = require('dayjs');
+            return dayjs().format('DD-MM-YY HH:mm:ss');
+        },
+        updateClock: function(){
+            setInterval(()=> {
+                this.clock()
+                console.log(this.clock())
+            }, 1000);
+        }
+    },
+    created(){
+        this.updateClock()
+    },
     data(){
         return{
             links:[
