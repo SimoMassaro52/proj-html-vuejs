@@ -37,7 +37,7 @@ export default {
 
         form{
             border-bottom: 2px solid rgb(154, 152, 152, 0.3);
-            width: 640px;
+            width: 700px;
         }
 
         input[type=email]{
