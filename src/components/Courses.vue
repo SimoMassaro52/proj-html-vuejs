@@ -13,8 +13,8 @@
                     <span id="price" class="py-1">${{element.price}}</span>
                     <span id="title" class="py-1">{{element.title}}</span>
                     <div id="program" class="d-flex flex-row justify-content-between py-2">
-                        <span><i class="far fa-file-alt"></i>{{element.lessons}} Lessons</span>
-                        <span><i class="far fa-user"></i>{{element.students}} Students</span>
+                        <span class="d-flex align-items-center"><i class="far fa-file-alt"></i>{{element.lessons}} Lessons</span>
+                        <span class="d-flex align-items-center"><i class="far fa-user"></i>{{element.students}} Students</span>
                     </div>
                 </div>
             </div>
@@ -24,6 +24,8 @@
                 <span>View all courses</span><i class="fas fa-long-arrow-alt-right"></i>
             </div>
         </div>
+        <!--BACKGROUND-->
+        <img id="bbpp" src="@/assets/img/artist-shape-01.png" alt="">
   </section>
 </template>
 
@@ -99,7 +101,7 @@ export default {
 @import '@/assets/style/variables.scss';
 
     #courses{
-
+        position: relative;
         h2{
             font-family: 'Arizonia', cursive;
             color: $ice-cold;
@@ -112,6 +114,7 @@ export default {
         }
 
         .custom_card{
+            z-index: 1;
             width: 313px;
             #thumbnail{
                 width: 280px;
@@ -127,7 +130,7 @@ export default {
             #info{
                 transition: 0.2s ease-in-out;
                 width: 90%;
-                z-index: 1;
+                z-index: 2;
                 background-color: white;
                 max-width: 250px;
 
@@ -167,7 +170,7 @@ export default {
             padding: 15px 30px;
 
             svg{
-                padding: 0 5px;
+                padding: 0 7px;
             }
         }
 
@@ -175,6 +178,12 @@ export default {
             background-color: $button-orange;
             color: white;
         }
-    }
 
+        #bbpp{
+            position: absolute;
+            transform: rotate(270deg);
+            top: 150px;
+            right: -340px;
+        }
+    }
 </style>
