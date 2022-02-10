@@ -23,16 +23,7 @@
             </a>     
 
             <ul class="navbar-nav d-flex flex-row h-100">
-                <!--DROPDOWN ITEMS-->
-                <div class="dropdown_item px-4 h-100" @click="element.angle = !element.angle" @mouseleave="element.angle = false" v-for="(element, index) in links" :key="index">
-                    <span>{{element.text}}</span>
-                    <i class="fa-solid fa-angle-down px-1"></i>
-                    <!--DROPDOWN MENU-->
-                    <div id="dropdown_menu" class="hidden" :class="{visible: element.angle}">
-                        <a href="#">Lorem</a>
-                    </div>
-                </div>   
-
+               <Menu-item :link-data="element" v-for="(element,index) in links" :key="index"/>
             </ul>
             
             <div class="nav-item d-flex flex-row" id="socials">
@@ -48,8 +39,12 @@
 
 
 <script>
+import MenuItem from './Header/Menu-item.vue'
 
 export default {
+  components: { 
+     MenuItem 
+},
     name: 'Header',
     data(){
         return{
@@ -128,36 +123,6 @@ export default {
 
 nav{
     background-color: white !important;
-}
-
-/*DROPDOWN MENU*/
-
-.dropdown_item{
-    cursor: pointer;
-}
-
-.hidden{
-    display: none !important;
-}
-
-.visible{
-    display: block !important;
-}
-
-.fa-angle-down{
-    font-size: 10px;
-}
-
-#dropdown_menu{
-    position: absolute;
-    z-index: 2;
-    width: max-content;
-    background-color: white;
-    padding: 10px 0;
-    box-shadow: 1px 1px 2px 0px #000000;
-    a{
-        display: block;
-    }
 }
 
 /*SOCIALS*/
