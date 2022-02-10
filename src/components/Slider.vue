@@ -16,7 +16,7 @@
                     <img :src="require(`@/assets/img/${element.img}.jpg`)" class="rounded-circle" alt="">
                     <div class="empl px-3">
                         <span>{{element.name}}</span>
-                        <p>/{{element.occupation}}</p>
+                        <p class="mb-1 py-1">/{{element.occupation}}</p>
                     </div>
                 </div>
             </div>

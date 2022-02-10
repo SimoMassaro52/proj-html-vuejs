@@ -5,6 +5,7 @@
         <Quote />
         <Video />
         <Slider />
+        <Courses />
     </main>
 </template>
 
@@ -14,6 +15,7 @@ import Coaching from './Coaching.vue'
 import Quote from './Quote.vue'
 import Video from './Video.vue'
 import Slider from './Slider.vue'
+import Courses from './Courses.vue'
 
 
 export default {
@@ -23,7 +25,8 @@ export default {
         Coaching,
         Quote,
         Video,
-        Slider
+        Slider,
+        Courses
     }
 }
 </script>
