@@ -136,6 +136,7 @@ export default {
             transform: rotate(270deg);
             left: -150px;
             bottom: -50px;
+            z-index: -1;
         }
 
         #circle{

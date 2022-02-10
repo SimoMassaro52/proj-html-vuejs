@@ -8,6 +8,7 @@
         <Courses />
         <Articles />
         <Events />
+        <Mail />
     </main>
 </template>
 
@@ -20,6 +21,7 @@ import Slider from './Slider.vue'
 import Courses from './Courses.vue'
 import Articles from './Articles.vue'
 import Events from './Events.vue'
+import Mail from './Mail.vue'
 
 
 export default {
@@ -32,7 +34,8 @@ export default {
         Slider,
         Courses,
         Articles,
-        Events
+        Events, 
+        Mail
     }
 }
 </script>
